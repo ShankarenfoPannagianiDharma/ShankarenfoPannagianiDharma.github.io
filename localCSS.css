@@ -1,0 +1,29 @@
+/* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+  
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.bottom-spaced{
+    margin-bottom: 50px;
+
+}
+
+.panel-tag{
+    display: inline-block;
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color:gold;
+    padding: 6px;
+    margin: 2px;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

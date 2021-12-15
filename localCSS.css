@@ -1,23 +1,31 @@
 /* Remove the navbar's default rounded borders and increase the bottom margin */ 
 .navbar {
-    margin-bottom: 50px;
     border-radius: 0;
+    margin-bottom: 0px;
 }
   
 /* Remove the jumbotron's default bottom margin */ 
 .jumbotron {
+    background-image: url("bgTech2.bmp");
+    background-color: darkblue;
+    background-size: cover;
+    color: #ffffff;
     margin-bottom: 0;
 }
 
-.bottom-spaced{
-    margin-bottom: 50px;
-
+.footnote{
+    background-image: url("bgTech4.bmp");
+    background-size: cover;
+    background-color:darkblue;
+    color: white;
+    padding: 5px;
+    border-top: solid black 4px;
 }
 
 .panel-tag{
     display: inline-block;
     border: solid black 1px;
-    border-radius: 15px;
+    border-radius: 80px;
     background-color:gold;
     padding: 6px;
     margin: 2px;
@@ -26,4 +34,21 @@
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.about{
+    padding: 50px 20px 50px 20px;
+    color: ghostwhite;
+    background-image: url("bgTech1.bmp");
+    background-size: 100% 100%;
+    background-color: darkcyan;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.content{
+    background-image: url("bgTech3.bmp");
+    background-size: 100% 100%;
+    width: 100%;
+    padding: 20px;
 }

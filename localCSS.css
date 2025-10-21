@@ -52,3 +52,12 @@ a, a:hover, a:focus, a:active {
     width: 100%;
     padding: 20px;
 }
+
+.container-centered{
+    margin:auto;
+    width:500px;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: 55px;
+    background-color:gold;
+}
